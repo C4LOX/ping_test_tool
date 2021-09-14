@@ -1,7 +1,7 @@
 # ping_test_tool
 Game Ping Test Tool
-
 V2.2 <p>
+<br>----------------------------------------------------------------------------------
  <br>Birkaç sorun düzeltidi.
  <br>Log dosyası artık yapılan testin tarih ve saatini otomatik olarak kaydediyor.
 <br>----------------------------------------------------------------------------------
