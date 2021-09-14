@@ -2,12 +2,12 @@
 Game Ping Test Tool
 
 V2.2 <p>
-  Birkaç sorun düzeltidi.
-<p> Log dosyası artık yapılan testin tarih ve saatini otomatik olarak kaydediyor.
-----------------------------------------------------------------------------------
+ <br>Birkaç sorun düzeltidi.
+ <br>Log dosyası artık yapılan testin tarih ve saatini otomatik olarak kaydediyor.
+<br>----------------------------------------------------------------------------------
 V2.1 <p>
-ADGUARD DNS Eklendi
-----------------------------------------------------------------------------------
-V2.0 <p>
-Gecikme değerlerini artık bulunduğu dizinde bir .txt dosyası olarak kaydediyor
-----------------------------------------------------------------------------------
+<br>ADGUARD DNS Eklendi
+<br>----------------------------------------------------------------------------------
+<br>V2.0 <p>
+<br>Gecikme değerlerini artık bulunduğu dizinde bir .txt dosyası olarak kaydediyor
+<br>----------------------------------------------------------------------------------
