@@ -2,5 +2,5 @@
 Game Ping Test Tool
 ----------------------------------------------------------------------------------
 V2.0
-Gecikme değerlerini artık bulunduğu dizine .txt dosyası olarak kaydediyor
+Gecikme değerlerini artık bulunduğu dizinde bir .txt dosyası olarak kaydediyor
 ----------------------------------------------------------------------------------
