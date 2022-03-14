@@ -112,7 +112,7 @@ ECHO. ------------------------------------------------ && ECHO. AdGuard DNS
 ECHO. AdGuard DNS >> ping.txt
 CALL:AdGuard 94.140.14.14
 ECHO - AdGuard:                 %ms%
-CALL:HL 94.140.14.14
+CALL:AdGuard 94.140.14.14
 ECHO - AdGuard: 		        %ms% >> ping.txt
 ECHO. ------------------------------------------------ && ECHO.  Next DNS Sunuculari
 ECHO.  Next DNS Sunuculari >> ping.txt
@@ -253,7 +253,6 @@ pause
 :ApexFrankfurt
 :Rocket
 :DOTA
-:HL
 :WoT
 :AdGuard
 :Discord
