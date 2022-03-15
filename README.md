@@ -2,19 +2,10 @@
 
 <h3>Hepsi bir arada online servisler ve oyunlar için ping ölçer</h3>
 
- **Değişiklikler**
- > **v2.3.1.1**
- > - Terminal çıktısı tekrar elden geçirildi.
- > - Hatalar giderildi.
- > - Gereksiz şeyler kaldırıldı.
- > - World of Tanks EU için ekleme yapıldı.
- > - Dota sunucuları Valve ile birleştirildi.
 
 ## Test içerisinde bulununlar
 
 > * Aşağıdaki servis ve oyunlara ek olarak Türkiye geneli TurkNet POP noktaları barındırmaktadır.
-
-
 |SERVİSLER|OYUNLAR|
 |-|-|
 | `Google (google.com, DNS, DNS IPv6)`|`Valve (Viyana, Viyana IPv6, Luksemburg, Polonya)`|
