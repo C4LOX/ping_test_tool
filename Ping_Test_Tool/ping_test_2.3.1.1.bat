@@ -110,9 +110,9 @@ Call:TwitchTv twitch.tv
 ECHO. - Twitch                  %ms%  >> ping.txt
 ECHO. ------------------------------------------------ && ECHO. AdGuard DNS
 ECHO. AdGuard DNS >> ping.txt
-CALL:AdGuard 94.140.14.14
+CALL:AdGuard dns.adguard.com
 ECHO - AdGuard:                 %ms%
-CALL:AdGuard 94.140.14.14
+CALL:AdGuard dns.adguard.com
 ECHO - AdGuard: 		        %ms% >> ping.txt
 ECHO. ------------------------------------------------ && ECHO.  Next DNS Sunuculari
 ECHO.  Next DNS Sunuculari >> ping.txt
@@ -155,14 +155,14 @@ CALL:Valve 155.133.226.71
 ECHO. - Polonya:                %ms%
 ECHO. ------------------------------------------------ && ECHO.  Riot Games Sunuculari
 ECHO.  Riot Games Sunuculari >> ping.txt
-CALL:Riot 104.160.143.212
+CALL:Riot er01.ist01.riotdirect.net
 ECHO. - Turkiye:                %ms% >> ping.txt
-CALL:Riot 104.160.143.212
+CALL:Riot er01.ist01.riotdirect.net
 ECHO. - Turkiye:                %ms%
-CALL:Riot 104.160.143.124     
-ECHO. - Avrupa:                 %ms% >> ping.txt
-CALL:Riot 104.160.143.124     
-ECHO. - Avrupa:                 %ms%
+CALL:Riot er01.fra02.riotdirect.net     
+ECHO. - Frankfurt:                 %ms% >> ping.txt
+CALL:Riot er01.fra02.riotdirect.net     
+ECHO. - Frankfurt:                 %ms%
 ECHO. ------------------------------------------------  && ECHO.  PUBG Sunuculari
 ECHO.  PUBG Sunuculari >> ping.txt
 Call:PUBG 35.156.63.252
