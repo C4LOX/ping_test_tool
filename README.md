@@ -1,12 +1,20 @@
-# ping_test_tool
-Game Ping Test Tool
-V2.2 <p>
-<br>----------------------------------------------------------------------------------V2.2 
- <br>Birkaç sorun düzeltidi.
- <br>Log dosyası artık yapılan testin tarih ve saatini otomatik olarak kaydediyor.
-<br>----------------------------------------------------------------------------------
-V2.1 
-<br>ADGUARD DNS Eklendi
-<br>----------------------------------------------------------------------------------V2.0
- <br>Gecikme değerlerini artık bulunduğu dizinde bir .txt dosyası olarak kaydediyor
-<br>----------------------------------------------------------------------------------
+# Türkiye için ping testi
+
+<h3>Hepsi bir arada online servisler ve oyunlar için ping ölçer</h3>
+
+
+## Test içerisinde bulunanlar
+
+> * Aşağıdaki servis ve oyunlara ek olarak Türkiye geneli TurkNet POP noktaları barındırmaktadır.
+
+|SERVİSLER|OYUNLAR|
+|-|-|
+| `Google (google.com, DNS, DNS IPv6)`|`Valve (Viyana, Viyana IPv6, Luksemburg, Polonya)`|
+|`Amazon AWS (Frankfurt, Londra, Irlanda)`|`Riot (Turkiye, Avrupa)`|
+|`CloudFlare (DNS, DNS IPv6)`|`PUBG (Avrupa)`|
+| `Discord`|`Epic Games (Fornite)`|
+|`Twitch`|`Rainbow Six Siege (Doğu Avrupa, Batı Avrupa)`|
+|`Adguard DNS`|`Apex Legends (Frankfurt)`|
+|`Next DNS`|`Battlefield (Frankfurt)`|
+|`Geforce NOW (Ankara, Istanbul)`|`World of Tanks EU1,EU2, EU3)`|
+||`Rocket Leauge`|
