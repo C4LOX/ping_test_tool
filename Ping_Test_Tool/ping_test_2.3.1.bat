@@ -104,9 +104,9 @@ Call:Discord eu-central5962.discord.gg
 ECHO. - Discord:                %ms%
 ECHO. ------------------------------------------------ && ECHO.  Twitch Sunuculari
 ECHO.  Twitch Sunuculari >> ping.txt
-Call:TwitchEU twitch.tv
+Call:TwitchTv twitch.tv
 ECHO. - Twitch                  %ms% 
-Call:TwitchEU twitch.tv
+Call:TwitchTv twitch.tv
 ECHO. - Twitch                  %ms%  >> ping.txt
 ECHO. ------------------------------------------------ && ECHO. AdGuard DNS
 ECHO. AdGuard DNS >> ping.txt
@@ -146,6 +146,10 @@ ECHO. - Viyana IPV6:            %ms% >> ping.txt
 CALL:Valve 2a01:bc80:2:101::9242:9b15
 ECHO. - Viyana IPV6:            %ms%
 CALL:Valve 155.133.226.71
+CALL:Valve lux.valve.net
+ECHO. - Luksemburg:             %ms% >> ping.txt
+CALL:Valve lux.valve.net
+ECHO. - Luksemburg:             %ms%
 ECHO. - Polonya:                %ms% >> ping.txt
 CALL:Valve 155.133.226.71
 ECHO. - Polonya:                %ms%
@@ -193,16 +197,6 @@ Call:Battlefield 52.119.188.10
 ECHO. - Frankfurt:              %ms%
 Call:Battlefield 52.119.188.10
 ECHO. - Frankfurt:              %ms%  >> ping.txt
-ECHO. ------------------------------------------------ && ECHO. DOTA 2
-ECHO. DOTA 2 >> ping.txt
-CALL:DOTA 146.66.158.1
-ECHO - EU West:                 %ms% >> ping.txt
-CALL:DOTA 146.66.158.1
-ECHO - EU West:                 %ms% 
-CALL:DOTA 146.66.155.1
-ECHO - Dogu Avrupa:             %ms% >> ping.txt
-CALL:DOTA 146.66.155.1
-ECHO - Bati Avrupa:             %ms%
 ECHO. ------------------------------------------------ && ECHO. World of Tanks
 ECHO. World of Tanks >> ping.txt
 Call:WoT login.p1.worldoftanks.eu
@@ -227,9 +221,9 @@ ECHO:
 ECHO. ------------------------------------------------ 
 ECHO. Test Bitti! Gecikme Degerleri Dizindeki ping.txt'ye kaydedildi.
 ECHO. ------------------------------------------------ 
-ECHO. Bu test scripti Telegram: @yns0001 tarafindan yapilmistir >> ping.txt
-ECHO. Bu test scripti Telegram: @yns0001 tarafindan yapilmistir
-ECHO.                                            V.2.3.1
+ECHO. Bu test scripti Telegram: @yns0001 tarafindan yapilmis, @schipht tarafindan duzenlenmistir >> ping.txt
+ECHO. Bu test scripti Telegram: @yns0001 tarafindan yapilmis, @schipht tarafindan duzenlenmistir
+ECHO.                                            V.2.3.1.1
 ECHO. ------------------------------------------------
 pause
 :cls
@@ -242,8 +236,7 @@ pause
 :CloudFlare
 :Rainbow6
 :Riot
-:TwitchEU
-:Twitch
+:TwitchTv
 :Google
 :GoogleDNS
 :NextDns
@@ -252,7 +245,6 @@ pause
 :GFN
 :ApexFrankfurt
 :Rocket
-:DOTA
 :WoT
 :AdGuard
 :Discord
