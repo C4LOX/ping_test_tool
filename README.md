@@ -9,12 +9,12 @@
 
 |SERVİSLER|OYUNLAR|
 |-|-|
-| `Google (google.com, DNS, DNS IPv6)`|`Valve (Viyana, Viyana IPv6, Luksemburg, Polonya)`|
-|`Amazon AWS (Frankfurt, Londra, Irlanda)`|`Riot (Turkiye, Avrupa)`|
-|`CloudFlare (DNS, DNS IPv6)`|`PUBG (Avrupa)`|
+| `Google (google.com, DNS, DNS IPv6)`|`Valve (IPv4 / IPv6)`|
+|`Amazon AWS (Frankfurt, Londra, Irlanda)`|`Riot Games`|
+|`CloudFlare (DNS, DNS IPv6)`|`PUBG`|
 | `Discord`|`Epic Games (Fornite)`|
-|`Twitch`|`Rainbow Six Siege (Doğu Avrupa, Batı Avrupa)`|
-|`Adguard DNS`|`Apex Legends (Frankfurt)`|
-|`Next DNS`|`Battlefield (Frankfurt)`|
-|`Geforce NOW (Ankara, Istanbul)`|`World of Tanks EU1,EU2, EU3)`|
+|`Twitch`|`Rainbow Six Siege`|
+|`Adguard DNS`|`Apex Legends`|
+|`Next DNS`|`Battlefield`|
+|`Geforce NOW (Ankara, Istanbul)`|`World of Tanks`|
 ||`Rocket Leauge`|

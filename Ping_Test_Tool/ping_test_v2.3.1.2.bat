@@ -2,15 +2,13 @@
 @Echo off
 color 9
 title Ping Test Scripti
-ECHO. %date% >> ping.txt
-ECHO. %time% >> ping.txt
 ECHO:
 ECHO:
 ECHO. HOS GELDIN!
 ECHO:
 ECHO. === Ping testi birkac saniye icinde baslayacak! ===
 ECHO:
-timeout /t 6
+TIMEOUT /T 6 /NOBREAK
 
 
 :: TurkNet POP ::
@@ -75,33 +73,33 @@ ECHO. - GoogleDNS IPv6          %ms% >> ping.txt
 ECHO. ------------------------------------------------  && ECHO.  Amazon AWS Sunuculari
 ECHO.  Amazon AWS Sunuculari >> ping.txt
 CALL:Amazon 52.28.63.252
-ECHO. - Frankfurt:              %ms% >> ping.txt
+ECHO. - Frankfurt, DE:          %ms% >> ping.txt
 CALL:Amazon 52.28.63.252
-ECHO. - Frankfurt:              %ms%
+ECHO. - Frankfurt, DE:          %ms%
 CALL:Amazon 52.94.15.16
-ECHO. - Londra:                 %ms% >> ping.txt
+ECHO. - London, GB:             %ms% >> ping.txt
 CALL:Amazon 54.72.255.252
-ECHO. - Londra:                 %ms%
+ECHO. - London, GB:             %ms%
 CALL:Amazon 54.72.255.252
-ECHO. - Irlanda:                %ms%  >> ping.txt
+ECHO. - Ireland, IE:            %ms%  >> ping.txt
 CALL:Amazon 54.72.255.252
-ECHO. - Irlanda:                %ms% 
+ECHO. - Ireland, IE:            %ms% 
 ECHO. ------------------------------------------------ && ECHO.  CloudFlare DNS Sunuculari
 ECHO.  CloudFlare DNS Sunuculari >> ping.txt
 Call:CloudFlare 1.1.1.1
-ECHO. - DNS:                    %ms%
+ECHO. - CloudFlare DNS:         %ms% >> ping.txt
 Call:CloudFlare 1.1.1.1
-ECHO. - DNS:                    %ms% >> ping.txt
-Call:CloudFlare_IPV6 2606:4700:4700::1111
-ECHO. - CloudFlare IPV6:        %ms%
+ECHO. - CloudFlare DNS:         %ms%
 Call:CloudFlare_IPV6 2606:4700:4700::1111
 ECHO. - CloudFlare IPV6:        %ms% >> ping.txt
+Call:CloudFlare_IPV6 2606:4700:4700::1111
+ECHO. - CloudFlare IPV6:        %ms%
 ECHO. ------------------------------------------------ && ECHO. Discord Sunuculari
 ECHO. Discord Sunuculari >> ping.txt
 Call:Discord eu-central5962.discord.gg
-ECHO. - Discord:                %ms%  >> ping.txt
+ECHO. - Rotterdam, NL:          %ms%  >> ping.txt
 Call:Discord eu-central5962.discord.gg
-ECHO. - Discord:                %ms%
+ECHO. - Rotterdam, NL:          %ms%
 ECHO. ------------------------------------------------ && ECHO.  Twitch Sunuculari
 ECHO.  Twitch Sunuculari >> ping.txt
 Call:TwitchTv twitch.tv
@@ -113,7 +111,7 @@ ECHO. AdGuard DNS >> ping.txt
 CALL:AdGuard dns.adguard.com
 ECHO - AdGuard:                 %ms%
 CALL:AdGuard dns.adguard.com
-ECHO - AdGuard: 		        %ms% >> ping.txt
+ECHO - AdGuard:                 %ms% >> ping.txt
 ECHO. ------------------------------------------------ && ECHO.  Next DNS Sunuculari
 ECHO.  Next DNS Sunuculari >> ping.txt
 Call:NextDns dns1.nextdns.io
@@ -123,13 +121,13 @@ ECHO. - Next DNS                %ms%  >> ping.txt
 ECHO. ------------------------------------------------ && ECHO.  Geforce NOW Sunuculari
 ECHO.  Geforce NOW Sunuculari >> ping.txt
 Call:GFN 85.29.14.132
-ECHO. - Ankara:                 %ms%
+ECHO. - Ankara, TR:             %ms%
 Call:GFN 85.29.14.132
-ECHO. - Ankara:                 %ms%  >> ping.txt 
+ECHO. - Ankara, TR:             %ms%  >> ping.txt 
 Call:GFN 85.29.18.132 
-ECHO. - Istanbul:               %ms%
+ECHO. - Istanbul, TR:           %ms%
 Call:GFN 85.29.18.132 
-ECHO. - Istanbul:               %ms%  >> ping.txt
+ECHO. - Istanbul, TR:           %ms%  >> ping.txt
 ECHO:
 
 :: OYUN ::
@@ -138,65 +136,83 @@ ECHO.  .:: OYUN ::. >> ping.txt
 ECHO. ------------------------------------------------  && ECHO.  Valve Sunuculari
 ECHO.  Valve Sunuculari >> ping.txt
 CALL:Valve vie.valve.net
-ECHO. - Viyana:                 %ms% >> ping.txt
+ECHO. - Vienna, AT:             %ms% >> ping.txt
 CALL:Valve vie.valve.net
-ECHO. - Viyana:                 %ms%
+ECHO. - Vienna, AT:             %ms%
+CALL:Valve 155.133.226.1
+ECHO. - Frankfurt, DE:          %ms% >> ping.txt
+CALL:Valve 155.133.226.1
+ECHO. - Frankfurt, DE:          %ms%
+CALL:Valve 155.133.230.1
+ECHO. - Poland, PL:             %ms% >> ping.txt
+CALL:Valve 155.133.230.1
+ECHO. - Poland, PL:             %ms%
+CALL:Valve 155.133.246.1
+ECHO. - Paris, FR:              %ms% >> ping.txt
+CALL:Valve 155.133.246.1
+ECHO. - Paris, FR:              %ms%
+CALL:Valve 155.133.248.1
+ECHO. - Amsterdam, NL:          %ms% >> ping.txt
+CALL:Valve 155.133.248.1
+ECHO. - Amsterdam, NL:          %ms%
+ECHO.   IPv6
+ECHO.   IPv6 >> ping.txt
 CALL:Valve 2a01:bc80:2:101::9242:9b15
-ECHO. - Viyana IPV6:            %ms% >> ping.txt
+ECHO. - Vienna, AT:             %ms% >> ping.txt
 CALL:Valve 2a01:bc80:2:101::9242:9b15
-ECHO. - Viyana IPV6:            %ms%
-CALL:Valve 155.133.226.71
-CALL:Valve lux.valve.net
-ECHO. - Luksemburg:             %ms% >> ping.txt
-CALL:Valve lux.valve.net
-ECHO. - Luksemburg:             %ms%
-ECHO. - Polonya:                %ms% >> ping.txt
-CALL:Valve 155.133.226.71
-ECHO. - Polonya:                %ms%
+ECHO. - Vienna, AT:             %ms%
+CALL:Valve 2a01:bc80:c:100::9b85:e202
+ECHO. - Frankfurt, DE:          %ms% >> ping.txt
+CALL:Valve 2a01:bc80:c:100::9b85:e202
+ECHO. - Frankfurt, DE:          %ms%
+CALL:Valve 2a01:bc80:1:103::a2fe:c611
+ECHO. - Stockholm, SE:          %ms% >> ping.txt
+CALL:Valve 2a01:bc80:1:103::a2fe:c611
+ECHO. - Stockholm, SE:          %ms%
 ECHO. ------------------------------------------------ && ECHO.  Riot Games Sunuculari
 ECHO.  Riot Games Sunuculari >> ping.txt
 CALL:Riot er01.ist01.riotdirect.net
-ECHO. - Turkiye:                %ms% >> ping.txt
+ECHO. - Istanbul, TR:           %ms% >> ping.txt
 CALL:Riot er01.ist01.riotdirect.net
-ECHO. - Turkiye:                %ms%
+ECHO. - Istanbul, TR:           %ms%
 CALL:Riot er01.fra02.riotdirect.net     
-ECHO. - Frankfurt:                 %ms% >> ping.txt
+ECHO. - Frankfurt, DE:          %ms% >> ping.txt
 CALL:Riot er01.fra02.riotdirect.net     
-ECHO. - Frankfurt:                 %ms%
+ECHO. - Frankfurt, DE:          %ms%
 ECHO. ------------------------------------------------  && ECHO.  PUBG Sunuculari
 ECHO.  PUBG Sunuculari >> ping.txt
 Call:PUBG 35.156.63.252
-ECHO. - Frankfurt:              %ms% >> ping.txt
+ECHO. - Frankfurt, DE:          %ms% >> ping.txt
 Call:PUBG 35.156.63.252
-ECHO. - Frankfurt:              %ms%
+ECHO. - Frankfurt, DE:          %ms%
 ECHO. ------------------------------------------------ && ECHO.  Fortnite (Epic Games) Sunuculari
 ECHO.  Fortnite (Epic Games) Sunuculari >> ping.txt 
-Call:Fortnite qosping-aws-eu-west-3.ol.epicgames.com >> ping.txt
-ECHO. - Bati Avrupa:            %ms%
+Call:Fortnite qosping-aws-eu-west-3.ol.epicgames.com
+ECHO. - Paris, FR:              %ms% >> ping.txt
 Call:Fortnite qosping-aws-eu-west-3.ol.epicgames.com 
-ECHO. - Bati Avrupa:            %ms%
+ECHO. - Paris, FR:              %ms%
 ECHO. ------------------------------------------------  && ECHO.  Rainbow Six Siege Sunuculari
 ECHO.  Rainbow Six Siege Sunuculari >> ping.txt
 CALL:Rainbow6 35.152.128.254
-ECHO. - Guney Avrupa:           %ms% >> ping.txt
+ECHO. - Spain, ES:              %ms% >> ping.txt
 CALL:Rainbow6 35.152.128.254
-ECHO. - Guney Avrupa:           %ms%
+ECHO. - Spain, ES:              %ms%
 CALL:Rainbow6 13.53.128.254
-ECHO. - Kuzey Avrupa:           %ms% >> ping.txt
+ECHO. - Stockholm, SE:          %ms% >> ping.txt
 CALL:Rainbow6 13.53.128.254
-ECHO. - Kuzey Avrupa:           %ms%
+ECHO. - Stockholm, SE:          %ms%
 ECHO. ------------------------------------------------ && ECHO. Apex Legends Sunuculari
 ECHO. Apex Legends Sunuculari >> ping.txt
 Call:ApexFrankfurt 52.58.81.34
-ECHO. - Frankfurt:              %ms% >> ping.txt
+ECHO. - Frankfurt, DE:          %ms% >> ping.txt
 Call:ApexFrankfurt 52.58.81.34
-ECHO. - Frankfurt:              %ms%
+ECHO. - Frankfurt, DE:          %ms%
 ECHO. ------------------------------------------------ && ECHO.  Battlefield Sunuculari
 ECHO.  Battlefield Sunuculari >> ping.txt
 Call:Battlefield 52.119.188.10
-ECHO. - Frankfurt:              %ms%
+ECHO. - Frankfurt, DE:          %ms%
 Call:Battlefield 52.119.188.10
-ECHO. - Frankfurt:              %ms%  >> ping.txt
+ECHO. - Frankfurt, DE:          %ms%  >> ping.txt
 ECHO. ------------------------------------------------ && ECHO. World of Tanks
 ECHO. World of Tanks >> ping.txt
 Call:WoT login.p1.worldoftanks.eu
@@ -214,17 +230,18 @@ ECHO. - EU3:                    %ms%
 ECHO. ------------------------------------------------ && ECHO. Rocket Leauge
 ECHO. Rocket Leauge >> ping.txt
 Call:Rocket 92.204.190.187
-ECHO. - Rocket Leauge:          %ms% >> ping.txt
+ECHO. - Strasbourg, FR:         %ms% >> ping.txt
 Call:Rocket 92.204.190.187
-ECHO. - Rocket Leauge:          %ms% 
+ECHO. - Strasbourg, FR:         %ms% 
 ECHO:
 ECHO. ------------------------------------------------ 
-ECHO. Test Bitti! Gecikme Degerleri Dizindeki ping.txt'ye kaydedildi.
+ECHO. Test Bitti! Gecikme Degerleri Dizindeki ping-tarih_saat.txt'ye kaydedildi.
 ECHO. ------------------------------------------------ 
 ECHO. Bu test scripti Telegram: @yns0001 tarafindan yapilmis, @schipht tarafindan duzenlenmistir >> ping.txt
 ECHO. Bu test scripti Telegram: @yns0001 tarafindan yapilmis, @schipht tarafindan duzenlenmistir
-ECHO.                                            V.2.3.1.1
+ECHO.                                            V.2.3.1.2
 ECHO. ------------------------------------------------
+RENAME ping.txt ping-%date:~0,2%_%date:~3,2%_%date:~6,8%-%time:~0,2%_%time:~3,2%_%time:~6,2%.txt
 pause
 :cls
 :goto Start
