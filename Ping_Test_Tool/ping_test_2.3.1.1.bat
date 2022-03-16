@@ -160,9 +160,9 @@ ECHO. - Turkiye:                %ms% >> ping.txt
 CALL:Riot er01.ist01.riotdirect.net
 ECHO. - Turkiye:                %ms%
 CALL:Riot er01.fra02.riotdirect.net     
-ECHO. - Frankfurt:                 %ms% >> ping.txt
+ECHO. - Frankfurt:              %ms% >> ping.txt
 CALL:Riot er01.fra02.riotdirect.net     
-ECHO. - Frankfurt:                 %ms%
+ECHO. - Frankfurt:              %ms%
 ECHO. ------------------------------------------------  && ECHO.  PUBG Sunuculari
 ECHO.  PUBG Sunuculari >> ping.txt
 Call:PUBG 35.156.63.252
