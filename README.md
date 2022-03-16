@@ -3,7 +3,7 @@
 <h3>Hepsi bir arada online servisler ve oyunlar için ping ölçer</h3>
 
 
-## Test içerisinde bulununlar
+## Test içerisinde bulunanlar
 
 > * Aşağıdaki servis ve oyunlara ek olarak Türkiye geneli TurkNet POP noktaları barındırmaktadır.
 
