@@ -135,9 +135,9 @@ ECHO.  .:: OYUN ::.
 ECHO.  .:: OYUN ::. >> ping.txt
 ECHO. ------------------------------------------------  && ECHO.  Valve Sunuculari
 ECHO.  Valve Sunuculari >> ping.txt
-CALL:Valve vie.valve.net
+CALL:Valve 146.66.155.1
 ECHO. - Vienna, AT:             %ms% >> ping.txt
-CALL:Valve vie.valve.net
+CALL:Valve 146.66.155.1
 ECHO. - Vienna, AT:             %ms%
 CALL:Valve 155.133.226.1
 ECHO. - Frankfurt, DE:          %ms% >> ping.txt
